@@ -1,0 +1,12 @@
+[Setup]
+path = C:\NetApp-Migration-Dev\temp-delete-1\temp-data
+path_7z = C:\Program Files\7-Zip\7z.exe
+
+
+[Advanced]
+base = http://asup_search.netapp.com/ns/
+Words_old = 'CLUSTER_INFO', 'T_SYSINFO', 'T_MBINFO','T_VOLUME','T_QTREE','T_DNS','T_SIS_STAT','T_QUOTA','T_CIFS_SHARE', 'T_VIF', 'T_SYSINFO','T_VSERV','T_CIFS_SERVER', 'T_DNS','T_EXPORT_POL_RULE', 'T_PORT'
+Words = CLUSTER_INFO, T_SYSINFO, T_MBINFO,T_VOLUME,T_QTREE,T_DNS,T_SIS_STAT,T_QUOTA,T_CIFS_SHARE, T_VIF, T_SYSINFO,T_VSERV,T_CIFS_SERVER, T_DNS,T_EXPORT_POL_RULE, T_PORT, Manifest, T_SNAPMIRROR_DESTINATION, T-SM-DESTINATIONS
+Name_locs = CLUSTER-INFO.xml,system-info.xml,motherboard-info.xml,volume.xml,qtree.xml,dns.xml,sis_stat_l.xml,volume-quota.xml,cifs_share_byname.xml,network-interface.xml,system-info.xml,vserver-info.xml,cifs_server_byname.xml,dns.xml,export_rule_table.xml, network-ports.xml, manifest.xml, snapmirror-destination.xml, smDestinations.xml
+Names = Clus_Info,system-info,MB_Info,Vol_Info,QTREE,Nameservers,Dedup,Quota,CIFS_share,IP_config_a,Failover,VServer,CIFS_Server,DNS,Export_rules, NetPorts, Manifest, SNAPMIRROR_DESTINATION, NonC_SNAPMIRROR_DESTINATION
+ASUP = http://asup_search.netapp.com/ns/ASUP/1.1
