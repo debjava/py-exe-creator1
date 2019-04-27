@@ -99,6 +99,6 @@ setup(
     license='MIT',
     packages=find_packages(exclude=["tests", "*.tests", "*.tests.*", "tests.*"]),
     install_requires=[
-        'panda', 'numpy', 'auto-py-to-exe', 'setupext-janitor'
+        'panda', 'numpy', 'auto-py-to-exe', 'matplotlib', 'XlsxWriter'
     ],
     zip_safe=False)
