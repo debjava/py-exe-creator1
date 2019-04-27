@@ -6,13 +6,13 @@ and it also shows how to customize clean and install command.
 To be updated Later
 
 ## Build status
-To be updated later
+	setup.py clean develop install
 
 ## Screenshots
 To be updated later
 
 ## Technology Stack
-To be updated later
+python 3.7
 
 ## Features
 To be updated later
@@ -25,7 +25,7 @@ To be updated later
 
 ## Contributor
 
-**mishrd5**
+**Debadatta Mishra**
 
 ## License
 A free and open source project.
